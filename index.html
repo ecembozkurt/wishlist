@@ -1,3 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rich Girl Wishlist</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/42/Font_Awesome_5_regular_gem.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      background: #f8f9fa;
+      margin: 0;
+      color: #2c2c2c;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    .tip-section {
+      padding: 2rem;
+      border-radius: 12px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .item {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      margin: 1rem 0;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .item img {
+      width: 160px;
+      object-fit: cover;
+    }
+    .item-content {
+      padding: 1rem;
+      flex: 1;
+    }
+    .item-content h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.5rem;
+      color: #0e1d34;
+    }
+    .item-content p {
+      margin: 0 0 1rem 0;
+      font-size: 1.1rem;
+      color: #4e4e4e;
+    }
+    .button {
+      background-color: #004aad;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #003580;
+    }
+    .sortable-ghost {
+      opacity: 0.5;
+      background: #eaeaea;
+    }
+  </style>
+</head>
+<body>
 <!-- Wishlist items grouped and listed -->
 <div class="container" id="wishlist">
   <!-- Venmo & Zelle Tipping CTA -->
